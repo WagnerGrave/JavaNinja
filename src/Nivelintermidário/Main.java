@@ -56,7 +56,5 @@ public class Main {
         Hokage Minato = new Hokage("Minato Namikaze", 25, false);
 
 
-
-
     }
 }

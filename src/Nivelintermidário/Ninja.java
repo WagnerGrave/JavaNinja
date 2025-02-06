@@ -4,10 +4,13 @@ public class Ninja {
     String nome;
     String aldeia;
     int idade;
+    int missoes;
+    double saldoBancario;
+    double altura;
 
-    public String EuSouUmNinja() {
-        return "Oi, Eu sou um ninja";
-    }
+   public void habilidadeEspecial(){
+
+   }
 
     public int anosParaSeTornarHokage(int idadeMinimaParaSerHokage) {
         return idadeMinimaParaSerHokage - idade;
