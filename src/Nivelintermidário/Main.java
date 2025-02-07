@@ -55,6 +55,14 @@ public class Main {
 
         Hokage Minato = new Hokage("Minato Namikaze", 25, false);
 
+        //Hatakes
+
+        Hatake Kakashi = new Hatake("Kakashi Hatake", "Aldeia da Folha", 35);
+        Kakashi.boasVindas();
+        Kakashi.SharinganAtivado();
+        Kakashi.nijnaDeElite();
+
+
 
     }
 }

@@ -4,11 +4,19 @@ public class Ninja {
     String nome;
     String aldeia;
     int idade;
-    int missoes;
-    double saldoBancario;
-    double altura;
 
-   public void habilidadeEspecial(){
+
+    public Ninja(){
+
+    }
+
+    public Ninja(String nome, String aldeia, int idade) {
+        this.nome = nome;
+        this.aldeia = aldeia;
+        this.idade = idade;
+    }
+
+    public void habilidadeEspecial(){
 
    }
 
