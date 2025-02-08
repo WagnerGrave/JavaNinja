@@ -38,4 +38,28 @@ public abstract class NinjaAbstract implements NinjaInterface{
     public void estrategiaDeBatalha() {
         System.out.println("Essa é minha estrategia de batalha");
     }
+
+    @Override
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é: " + nome + " E essa é minha inteligencia de combate");
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+
+        if (qi > 150) {
+            System.out.println("Seu QI é: " + qi + " e voce é um genio");
+        } else if (qi >= 130) {
+            System.out.println("Seu QI é: " + qi + " e voce é um ninja promissor");
+        }else {
+            System.out.println("Seu QI é: " + qi + " e voce e voce precisa treinar mais suas estrategias");
+        }
+
+    }
+
+    // Metodo sem Override
+
+    public void metodoProvisorio() {
+        System.out.println("teste na classe ninja");
+    }
 }

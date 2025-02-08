@@ -19,6 +19,8 @@ public class Main {
         UchihaSubClass Madara = new UchihaSubClass("Madara Uchiha", "Aldeia da Folha", 45, 900, NivelNinja.KAGE);
         Madara.mostrarNome();
         Madara.estrategiaDeBatalha();
+        Madara.inteligenciaDeCombate();
+        Madara.inteligenciaDeCombate(180);
 
 
 
