@@ -62,4 +62,9 @@ public abstract class NinjaAbstract implements NinjaInterface{
     public void metodoProvisorio() {
         System.out.println("teste na classe ninja");
     }
+
+    @Override
+    public String toString() {
+        return "Esse é o metodo para referencia de memoria";
+    }
 }

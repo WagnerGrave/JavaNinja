@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         UzumakiSubClass Naruto = new UzumakiSubClass("Naruto Uzumaki", "Aldeia da Folha", 18, 25, NivelNinja.GENIN);
+        System.out.println(Naruto);
         Naruto.mostrarNome();
         Naruto.jogaKunai();
         Naruto.estrategiaDeBatalha();
